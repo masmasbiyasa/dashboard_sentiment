@@ -23,10 +23,11 @@ st.title("Sentiment Analysis dengan BERT Multilingual")
 st.write("Model ini menggunakan BERT Multilingual dari [NLPTown](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment) untuk menganalisis sentimen dari teks yang dimasukkan.")
 st.write("Masukkan teks di bawah untuk menganalisis sentimennya.")
 st.write("Model yang digunakan hanya bisa memprediksi sentiment dari bahasa : English, Dutch, German, French, Italian, Spanish")
+    "data = {
     "Language": ["English", "Dutch", "German", "French", "Italian", "Spanish"],
     "Accuracy (exact)": ["67%", "57%", "61%", "59%", "59%", "58%"],
     "Accuracy (off-by-1)": ["95%", "93%", "94%", "94%", "95%", "95%"]
-}
+    }
 
 st.write("### Model Accuracy per Language")
 st.table(data)  
