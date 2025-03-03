@@ -38,5 +38,6 @@ if st.button("Analisis Sentimen"):
     if user_input:
         sentiment = predict_sentiment(user_input)
         st.write(f"### Hasil Sentimen: {sentiment}")
+        st.warning("Hasil ini mungkin tidak akurat, tergantung pada data yang digunakan untuk melatih model.")
     else:
         st.write("Harap masukkan teks terlebih dahulu!")
