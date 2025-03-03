@@ -1,2 +1,4 @@
-torch == 2.60
-pip install --upgrade pip
+torch
+transformers
+streamlit
+huggingface_hub
