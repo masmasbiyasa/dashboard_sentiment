@@ -67,6 +67,10 @@ if st.button("Analisis"):
     if user_input:
         sentiment_result = predict_sentiment(user_input)
         emotion_result = predict_emotion(user_input)
+
+        st.write('### Input teks: ')
+        st.write(user_input)
+
         
         st.write(f"### Hasil Sentimen: {sentiment_result}")
         st.write(f"### Hasil Emosi: {emotion_result}")
