@@ -1,1 +1,2 @@
 torch == 2.60
+pip install --upgrade pip
